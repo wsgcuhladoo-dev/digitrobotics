@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digit Robotics | Robotic Finger Prosthetic Kit</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      color: #222;
+      text-align: center;
+    }
+    header {
+      background: #1f3c88;
+      color: white;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #1f3c88;
+      margin-bottom: 15px;
+    }
+    img {
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature-box {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #eee;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- CHANGE THIS TITLE -->
+    <h1>Digit Robotics</h1>
+    <!-- CHANGE THIS SUBTITLE -->
+    <p>Showcasing our Robotic Finger Prosthetic Kit</p>
+  </header>
+
+  <main>
+    <section>
+      <!-- CHANGE THIS SECTION TITLE -->
+      <h2>About the Project</h2>
+      <!-- CHANGE THIS PARAGRAPH -->
+      <p>
+        The Robotic Finger Prosthetic Kit is designed to make advanced prosthetic technology
+        accessible, functional, and customizable. It includes pressure sensing, adaptive motion, 
+        and 3D-printable components.
+      </p>
+      <!-- CHANGE THIS IMAGE -->
+      <img src="finger1.jpg" alt="Robotic Finger Prototype">
+    </section>
+
+    <section>
+      <!-- CHANGE THIS SECTION TITLE -->
+      <h2>Key Features</h2>
+      <div class="features">
+        <div class="feature-box">
+          <!-- CHANGE FEATURE TITLE -->
+          <h3>💡 Functional Movement</h3>
+          <!-- CHANGE FEATURE DESCRIPTION -->
+          <p>Realistic finger movement using servo-based actuation.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🧩 Customizable Design</h3>
+          <p>3D-printable components let you personalize the fit and function.</p>
+        </div>
+        <div class="feature-box">
+          <h3>⚙️ Pressure Sensing</h3>
+          <p>Integrated sensors detect grip strength for delicate control.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🌍 Accessibility</h3>
+          <p>Designed to be affordable and open-source for learning and research.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- CHANGE THIS SECTION TITLE -->
+      <h2>Gallery</h2>
+      <!-- CHANGE IMAGES BELOW -->
+      <img src="finger2.jpg" alt="Finger Prototype 2">
+      <img src="finger3.jpg" alt="Finger Prototype 3">
+      <p>Replace these images with your own photos of the project.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <!-- CHANGE EMAIL -->
+      <p>Email us at: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Digit Robotics | Educational & Research Showcase</p>
+  </footer>
+</body>
+</html>
+
